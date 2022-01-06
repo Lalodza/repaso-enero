@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Repaso Enero 06/01/22</title>
+</head>
+<body>
+    <h1>Repaso HTML</h1>
+
+    <h2>Formulario</h2>
+    <form class="container__class">
+        <fieldset>
+            <legend>Datos</legend>
+            <div class="form__datos">
+                <label for="nombre" class="form__label">Nombre</label>
+                <input id="nombre" type="text" class="form__input" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form__datos">
+                <label for="apellido" class="form__label">Apellido</label>
+                <input id="apellido" type="text" class="form__input" placeholder="Ingrese su apellido">
+            </div>
+            <div class="form__datos">
+                <label for="message" class="form__label">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="form__textarea" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <div class="form__submit">
+                <input type="submit" class="form__enviar">
+            </div>
+        </fieldset>
+    </form>
+
+    <h2>Tabla</h2>
+    <table class="container__table">
+        <thead class="table__head">
+            <!-- colspan -->
+            <!-- rowspan -->
+            <tr>
+                <th>Cabecera</th>
+                <th>Cabecera</th>
+            </tr>
+        </thead>
+        <tbody class="table__body">
+            <tr>
+                <td>A</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+        <tfoot class="table__foot">
+            <tr>
+                <td>pie</td>
+                <td>pie</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Enlace</h2>
+    
+    <!-- inline -->
+    <a href="servicios.html" class="enlace" target="_blank">Servicios</a>
+    <a href="servicios.html" class="enlace" target="_blank">Servicios2</a>
+
+    <!-- block -->
+
+    <span>Este es un span</span>
+    <p id="bloque">Este es un parrafo</p>
+    <h1 id="bloque">titulo</h1>
+    <h2 id="bloque">subtitulo h2</h2>
+    <h6 id="bloque">subtitulo h6</h6>
+    <div id="bloque">Este es un div</div>
+
+    <a href="" alt="perrito" with ></a>
+</body>
+</html>
